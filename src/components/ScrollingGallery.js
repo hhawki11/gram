@@ -1,14 +1,21 @@
 import React, { useState, useEffect } from 'react';
 import './ScrollingGallery.css';
+import coverImage from '../img/Europe 2025/cover.JPG';
+import nycCover from '../img/NYC Marathon 2024/cover.JPG';
+import japanCover from '../img/Japan 2024/cover.JPG';
+import californiaCover from '../img/California 2024/cover.JPG';
+import keyWestCover from '../img/Key West 2024/cover.jpg';
+import rainierCover from '../img/Mt. Rainier 2022/cover.jpg';
+
 
 // Sample images - replace these with your actual image URLs
 const images = [
-  '/Europe 2025/cover.JPG',
-  '/NYC Marathon 2024/cover.JPG',
-  '/Japan 2024/cover.JPG',
-  '/California 2024/cover.JPG',
-  '/Key West 2024/123.jpg',
-  '/Mt. Rainier 2022/cover.jpg'
+  coverImage,
+  nycCover,
+  japanCover,
+  californiaCover,
+  keyWestCover,
+  rainierCover
 ];
 
 const ScrollingGallery = ({ onNavigateToGallery }) => {
@@ -98,7 +105,7 @@ const ScrollingGallery = ({ onNavigateToGallery }) => {
       {/* Navigation */}
       <nav className="navigation">
         <div className="nav-content">
-          <h1 className="logo">Gram Gallery</h1>
+          <h1 className="logo">Gram</h1>
           <div className="nav-indicators">
             {images.map((_, index) => (
               <div
