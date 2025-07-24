@@ -1,13 +1,21 @@
 {
   "files": {
-    "main.css": "/gram/static/css/main.71c2e9d2.css",
-    "main.js": "/gram/static/js/main.1bf9f65a.js",
+    "main.css": "/gram/static/css/main.0a53f05c.css",
+    "main.js": "/gram/static/js/main.f06a3952.js",
+    "static/media/mountain.JPG": "/gram/static/media/mountain.1c8016b25fe5d129a3d6.JPG",
+    "static/media/castle.JPG": "/gram/static/media/castle.6d002eac80bfbb717f47.JPG",
+    "static/media/lake.JPG": "/gram/static/media/lake.cb3874fe857fbdf0dcdf.JPG",
+    "static/media/cover.JPG": "/gram/static/media/cover.1344c4b7f9662ca4ad3c.JPG",
+    "static/media/valley.JPG": "/gram/static/media/valley.d90e6bf82a1272362a26.JPG",
+    "static/media/self.JPG": "/gram/static/media/self.397f9daa36dc8c54d828.JPG",
+    "static/media/cave.JPG": "/gram/static/media/cave.d3a0d2b2715e87f85f0c.JPG",
+    "static/media/cover.jpg": "/gram/static/media/cover.45652c69c2bace29a683.jpg",
     "index.html": "/gram/index.html",
-    "main.71c2e9d2.css.map": "/gram/static/css/main.71c2e9d2.css.map",
-    "main.1bf9f65a.js.map": "/gram/static/js/main.1bf9f65a.js.map"
+    "main.0a53f05c.css.map": "/gram/static/css/main.0a53f05c.css.map",
+    "main.f06a3952.js.map": "/gram/static/js/main.f06a3952.js.map"
   },
   "entrypoints": [
-    "static/css/main.71c2e9d2.css",
-    "static/js/main.1bf9f65a.js"
+    "static/css/main.0a53f05c.css",
+    "static/js/main.f06a3952.js"
   ]
 }
