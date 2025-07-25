@@ -4,6 +4,10 @@ node_modules
 build/
 dist/
 
+# Cloudflare
+.wrangler/
+.dev.vars
+
 # Logs
 npm-debug.log*
 yarn-debug.log*

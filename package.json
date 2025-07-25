@@ -19,8 +19,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "npm run deploy"
-
+    "deploy": "npm run deploy",
+    "preview:worker": "npm start && wrangler dev",
+    "deploy:worker": "npm run build && wrangler deploy"
   },
   "eslintConfig": {
     "extends": [
